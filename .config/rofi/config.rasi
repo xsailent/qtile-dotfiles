@@ -1,0 +1,30 @@
+/** Basic config file **/
+
+configuration {
+  show-icons:         true;
+  icon-theme:         "Papirus";
+}
+
+//@theme "/home/xsailent/.local/share/rofi/themes/rounded-gray-dark.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/windows11-list-dark.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/squared-material-red.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/launchpad.rasi"
+
+//@theme "/usr/share/rofi/themes/docu.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/nord.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/rounded-purple-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/Monokai.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/squared-material-red.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
+
+//@theme "/home/xsailent/.local/share/rofi/themes/launchpad.rasi"
+
+@theme "/usr/share/rofi/themes/gruvbox-dark-soft.rasi"
