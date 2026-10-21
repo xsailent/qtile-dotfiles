@@ -209,7 +209,7 @@ keys = [
     Key(
         [mod, "shift"], "z", lazy.spawn(themes_script), desc="script for change themes"
     ),
-    Key([mod], "o", lazy.spawn(boomer), desc="spawning boomer by tsoding")
+    Key([mod], "o", lazy.spawn(boomer), desc="spawning boomer by tsoding"),
     Key([mod], "e", lazy.spawn(emoji), desc="rofi emoji")
 ]
 
