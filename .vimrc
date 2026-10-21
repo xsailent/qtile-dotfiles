@@ -44,6 +44,11 @@ let g:startify_custom_header = startify#center([
  \ ' /_/\_\___/\__,_|_|\___/       \_/ |_|_| |_| |_| ',
  \ ])
 
+let g:coc_global_extensions = [
+      \ 'coc-pyright',
+      \ 'coc-clangd',
+      \ 'coc-golang'
+      \ ]
 
 " Назначить открытие/закрытие NERDTree на клавишу Ctrl+n
 nnoremap <C-n> :NERDTreeToggle<CR>

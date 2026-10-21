@@ -130,10 +130,12 @@ def autostart():
 mod = "mod4"
 terminal = guess_terminal()
 rofi = "rofi -show drun"
+emoji = "rofi -show emoji"
 tg = "Telegram"
-browser = "helium"
+browser = "firefox"
 dolphin = "dolphin"
 flameshot = "flameshot gui"
+boomer = "boomer"
 
 home = os.path.expanduser("~")
 oboi = style.wallpap
@@ -207,6 +209,8 @@ keys = [
     Key(
         [mod, "shift"], "z", lazy.spawn(themes_script), desc="script for change themes"
     ),
+    Key([mod], "o", lazy.spawn(boomer), desc="spawning boomer by tsoding")
+    Key([mod], "e", lazy.spawn(emoji), desc="rofi emoji")
 ]
 
 
