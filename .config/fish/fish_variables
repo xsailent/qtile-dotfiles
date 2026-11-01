@@ -2,4 +2,4 @@
 # VERSION: 3.0
 SETUVAR __fish_initialized:4300
 SETUVAR fish_greeting:
-SETUVAR fish_user_paths:/home/xsailent/\x2efoundry/bin
+SETUVAR fish_user_paths:/home/xsailent/\x2eopencode/bin\x1e/home/xsailent/\x2efoundry/bin
