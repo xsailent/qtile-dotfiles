@@ -1,7 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     #fastfetch
-    tmux
+    #tmux
     pfetch
     bind \e\[3\~ kill-whole-line
 end
