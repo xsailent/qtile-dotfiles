@@ -1,6 +1,7 @@
 if status is-interactive
     # Commands to run in interactive sessions can go here
     #fastfetch
+    tmux
     pfetch
     bind \e\[3\~ kill-whole-line
 end
@@ -21,6 +22,9 @@ end
 
 alias ls='lsd'
 alias tree='lsd --tree'
+alias vim='emacs'
+alias nvim='emacs'
+alias em='emacs'
 
 # быстрые команды для управления zapret
 alias zapret-config='$HOME/zapret-configs/install.sh'
