@@ -28,7 +28,7 @@ shape = "Beam"
 save_to_clipboard = true
 
 [window]
-decorations = "none"
+decorations = "full"
 dynamic_title = true
 opacity = 1.0
 padding = { x = 5, y = 5 }

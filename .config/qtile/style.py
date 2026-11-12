@@ -22,7 +22,8 @@ winborder_normal="#504945"
 
 # bar settings
 wmlogo = f"{home}/.config/qtile/void.png"
-bar_font = "Hack, Noto Color EmojiA"
+bar_font = "Iosevka, Noto Color EmojiA"
+#bar_font = "Hack, Noto Color EmojiA"
 mergin = [0, 0, 0, 0]
 border_width = [0, 0, 2, 0]
 border_color = ["665c54", "665c54", "665c54", "665c54"]

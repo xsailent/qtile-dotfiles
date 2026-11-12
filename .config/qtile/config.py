@@ -280,7 +280,7 @@ layouts = [
 widget_defaults = dict(
     # font="sans",
     font=style.bar_font,
-    fontsize=12,
+    fontsize=13,
     padding=3,
 )
 extension_defaults = widget_defaults.copy()
