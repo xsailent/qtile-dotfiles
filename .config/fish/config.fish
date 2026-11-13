@@ -22,8 +22,6 @@ end
 
 alias ls='lsd'
 alias tree='lsd --tree'
-alias vim='emacs'
-alias nvim='emacs'
 alias em='emacs'
 
 # быстрые команды для управления zapret
