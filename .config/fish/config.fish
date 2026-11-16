@@ -30,9 +30,6 @@ alias zapret-utils='$HOME/zapret-configs/utils-zapret.sh'
 set -x PYENV_ROOT $HOME/.pyenv
 set -x PATH $PYENV_ROOT/bin $PATH
 pyenv init - | source
-set -x PYENV_ROOT $HOME/.pyenv
-set -x PATH $PYENV_ROOT/bin $PATH
-pyenv init - | source
 
 # opencode
 fish_add_path /home/xsailent/.opencode/bin

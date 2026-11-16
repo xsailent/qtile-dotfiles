@@ -136,6 +136,7 @@ browser = "helium"
 dolphin = "dolphin"
 flameshot = "flameshot gui"
 boomer = "boomer"
+xkill = "xkill"
 
 home = os.path.expanduser("~")
 oboi = style.wallpap
@@ -210,7 +211,8 @@ keys = [
         [mod, "shift"], "z", lazy.spawn(themes_script), desc="script for change themes"
     ),
     Key([mod], "s", lazy.spawn(boomer), desc="spawning boomer by tsoding"),
-    Key([mod], "e", lazy.spawn(emoji), desc="rofi emoji")
+    Key([mod], "e", lazy.spawn(emoji), desc="rofi emoji"),
+    Key([mod], "o", lazy.spawn(xkill), desc="kill X11 apps")
 ]
 
 
